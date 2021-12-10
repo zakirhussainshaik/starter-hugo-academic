@@ -1,44 +1,77 @@
 ---
-title: Zakir Hussain Shaik
-role: PhD in Communications Systems
-avatar_filename: avatar.jpg
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
-interests:
-  - Communications beyond 5G
-  - Massive MIMO
-  - Cell-Free Massive MIMO
-  - NOMA
-  - Convex Optimization
-social:
-  - icon: graduation-cap
-    icon_pack: fas
-    link: https://scholar.google.co.in/citations?hl=en&user=tWX2_UUAAAAJ
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/in/zakirhussain99/
+# Display name
+title: Nelson Bighetti
+
+# Is this the primary user of the site?
+superuser: true
+
+# Role/position/tagline
+role: Professor of Artificial Intelligence
+
+# Organizations/Affiliations to show in About widget
 organizations:
-  - name: LiU
-    url: https://liu.se/en/employee/zaksh81
+- name: Stanford University
+  url: https://www.stanford.edu/
+
+# Short bio (displayed in user profile at end of posts)
+bio: My research interests include distributed robotics, mobile computing and programmable matter.
+
+# Interests to show in About widget
+interests:
+- Artificial Intelligence
+- Computational Linguistics
+- Information Retrieval
+
+# Education to show in About widget
 education:
   courses:
-    - course: PhD in Communication Systems
-      institution: Linköping University, Sweden
-      year: 2024
-    - course: MS by Research in ECE
-      institution: IIIT Hyderabad, India
-      year: 2017
-    - course: Bachelor of Technology in ECE
-      institution: JNTU Kakinada, India
-      year: 2014
+  - course: PhD in Artificial Intelligence
+    institution: Stanford University
+    year: 2012
+  - course: MEng in Artificial Intelligence
+    institution: Massachusetts Institute of Technology
+    year: 2009
+  - course: BSc in Artificial Intelligence
+    institution: Massachusetts Institute of Technology
+    year: 2008
+
+# Social/Academic Networking
+# For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
+#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
+social:
+- icon: envelope
+  icon_pack: fas
+  link: '/#contact'
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/GeorgeCushen
+- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
+  icon_pack: fas
+  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+- icon: github
+  icon_pack: fab
+  link: https://github.com/gcushen
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/
+
+# Link to a PDF of your resume/CV.
+# To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
+# and uncomment the lines below.
+# - icon: cv
+#   icon_pack: ai
+#   link: uploads/resume.pdf
+
+# Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
-superuser: true
+
+# Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-I am a [PhD student](https://liu.se/en/employee/zaksh81) in Communications Systems Division, Electrical Engineering Dept, Linkoping University (LiU), Sweden. I am working under the supervision of [Prof. Erik G. Larsson](https://scholar.google.se/citations?user=79Lry6oAAAAJ&hl=sv&oi=ao) and [Prof. Emil Bjornson](https://scholar.google.se/citations?user=Maij4akAAAAJ&hl=en). I am working on signal processing algorithms for cell-free massive MIMO networks which is envisaged to be a potential technology beyond 5G.
 
-<!--StartFragment-->
+Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 
-To know more about my work: [LinkedIn](https://www.linkedin.com/in/zakirhussain99/), [Googe Scholar](https://scholar.google.co.in/citations?hl=en&user=tWX2_UUAAAAJ) and [Blog](https://zakirhussainshaik.github.io/Learn2Grow/blog/).
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
 
-<!--EndFragment-->
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
