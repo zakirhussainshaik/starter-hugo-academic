@@ -1,6 +1,6 @@
 ---
 widget: slides
-widget_id: my-widget-123
+widget_id: slides
 headless: true
 weight: 140
 title: Slides
