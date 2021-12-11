@@ -2,7 +2,7 @@
 widget: slides
 widget_id: my-widget-123
 headless: true
-weight: 10
+weight: 140
 title: Slides
 active: true
 design:
