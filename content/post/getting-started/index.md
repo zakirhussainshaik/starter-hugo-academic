@@ -30,4 +30,4 @@ In-line math: $x + y = z$
 
 Block math:
 
-$$\gamma{n} = \frac{ \left | \left (\mathbf x{n} - \mathbf x{n-1} \right )^T \left \[\nabla F (\mathbf x{n}) - \nabla F (\mathbf x{n-1}) \right ] \right |} {\left |\nabla F(\mathbf{x}{n}) - \nabla F(\mathbf{x}_{n-1}) \right |^2}$$
+$$\gamma{n} = \frac{ \left | \left (\mathbf x\_{n} - \mathbf x\_{n-1} \right )^T \left \[\nabla F (\mathbf x\_{n}) - \nabla F (\mathbf x\_{n-1}) \right ] \right |} {\left |\nabla F(\mathbf{x}\_{n}) - \nabla F(\mathbf{x}\_{n-1}) \right |^2}$$
