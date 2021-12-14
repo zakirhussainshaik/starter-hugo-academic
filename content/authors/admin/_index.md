@@ -11,35 +11,35 @@ interests:
   - Convex Optimization
   - Machine Learning
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: /#contact
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-  - icon: graduation-cap
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  - icon: linkedin
+	icon_pack: fab
+	link: https://www.linkedin.com/in/zakirhussain99/
+  - icon: google-scholar
+	icon_pack: ai
+	link: https://scholar.google.co.in/citations?hl=en&user=tWX2_UUAAAAJ
+  - icon: researchgate
+	icon_pack: ai
+	link: https://www.researchgate.net/profile/Zakir_Hussain_Shaik
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://github.com/zakirhussainshaik
+  - icon: publons
+    icon_pack: ai
+    link: https://publons.com/researcher/3951807/zakir-hussain-shaik/
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Linkoping University
+    url: https://liu.se/en/employee/zaksh81
 education:
   courses:
-    - course: PhD in Artificial Intelligence
+    - course: PhD in Communication Systems
       institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
+      year: 2024
+    - course: MS by Research in ECE
       institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
+      year: 2016
+    - course: Bachelor of Technology in ECE
       institution: Massachusetts Institute of Technology
-      year: 2008
+      year: 2014
 email: ""
 superuser: true
 highlight_name: true
