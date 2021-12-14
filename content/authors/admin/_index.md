@@ -37,7 +37,7 @@ education:
   courses:
     - course: PhD in Communication Systems
       institution: Linköping University, Sweden
-      year: 2012
+      year: 2024
     - course: MS by Research in ECE
       institution: IIIT Hyderabad, India
       year: 2016
