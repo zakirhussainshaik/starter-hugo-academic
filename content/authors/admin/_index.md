@@ -25,6 +25,11 @@ social:
     link: https://publons.com/researcher/3951807/zakir-hussain-shaik/
     icon_pack: ai
     icon: publons
+  - display:
+      header: false
+    link: https://www.researchgate.net/profile/Zakir-Hussain-Shaik
+    icon_pack: ai
+    icon: researchgate
 organizations:
   - name: Stanford University
     url: https://www.stanford.edu/
