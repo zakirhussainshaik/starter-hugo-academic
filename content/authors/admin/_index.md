@@ -11,9 +11,9 @@ interests:
   - Convex Optimization
   - Machine Learning
 social:
-  - icon: linkedin
-	icon_pack: fab
-	link: https://www.linkedin.com/in/zakirhussain99/
+  - icon: envelope
+    icon_pack: fas
+    link: /#contact
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/GeorgeCushen
