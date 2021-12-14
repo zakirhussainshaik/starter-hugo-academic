@@ -14,12 +14,17 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/zakirhussain99/
-  - icon: graduation-cap
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.co.in/citations?hl=en&user=tWX2_UUAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/zakirhussainshaik
+  - display:
+      header: false
+    link: https://publons.com/researcher/3951807/zakir-hussain-shaik/
+    icon_pack: ai
+    icon: publons
 organizations:
   - name: Stanford University
     url: https://www.stanford.edu/
