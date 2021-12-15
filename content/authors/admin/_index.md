@@ -31,8 +31,8 @@ social:
     icon_pack: ai
     icon: researchgate
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Linköping University
+    url: https://liu.se/en/employee/zaksh81
 education:
   courses:
     - course: PhD in Communication Systems
