@@ -22,28 +22,28 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
+  - title: Assistant Systems Engineer
+    company: Tata Consultancy Services
+    company_url: 'https://www.tcs.com/'
     company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
-    date_end: ''
+    location: Bangalore
+    date_start: '2014-10-20'
+    date_end: '2016-07-20'
     description: |2-
         Responsibilities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * ECAD support for printed circuit boards (PCB) design
+        * Component engineering
+        * RoHS engineering
         
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
+  - title: Intern
+    company: Gayatri Vidya Parishad Scientific and Industrial Research Centre (GVP-SIRC)
+    company_url: 'http://www.gvpsirc.in/index.html'
     company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+    location: Visakhapatnam
+    date_start: '2012-12-01'
+    date_end: '2014-04-30'
+    description: Design real time signal demodulator in LabVIEW and MATLAB. Then extracting the required signal features and analyzing
 
 design:
   columns: '2'
