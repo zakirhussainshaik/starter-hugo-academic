@@ -19,13 +19,13 @@ Testing in-line math: $x + y = z$
 
 <!--StartFragment-->
 
-Dwayne Johnson is one of the last great movie stars. Whether he's kicking butt, tickling funny bones or (frequently) both, The Rock has the uncanny ability to make almost every movie better just by showing up. (Note: These films are ranked based on quality and Dwayne Johnson-ness. Minor roles mostly rank low, and cameos are only included if they're noteworthy.)
+Here testing CMS interface post as opposed to posting edited from desktop and upload using Github interface. Repeating the same sentence for verbose to check the display. Here testing CMS interface post as opposed to posting edited from desktop and upload using Github interface. Repeating the same sentence for verbose to check the display.  Here testing CMS interface post as opposed to posting edited from desktop and upload using Github interface. Repeating the same sentence for verbose to check the display.
 
 <!--EndFragment-->
 
 <!--StartFragment-->
 
-Dwayne Johnson is one of the last great movie stars. Whether he's kicking butt, tickling funny bones or (frequently) both, The Rock has the uncanny ability to make almost every movie better just by showing up. (Note: These films are ranked based on quality and Dwayne Johnson-ness. Minor roles mostly rank low, and cameos are only included if they're noteworthy.)
+Checking new paragraph: Here testing CMS interface post as opposed to posting edited from desktop and upload using Github interface. Repeating the same sentence for verbose to check the display. Here testing CMS interface post as opposed to posting edited from desktop and upload using Github interface. Repeating the same sentence for verbose to check the display.  Here testing CMS interface post as opposed to posting edited from desktop and upload using Github interface. Repeating the same sentence for verbose to check the display.
 
 <!--EndFragment-->
 
