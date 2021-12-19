@@ -52,4 +52,4 @@ subtitle = "Learn to Grow"
 <br/>
 
 
-**Ride the Future** is the place to record my personal interests in the form of blog articles. Currently I plan to write articles on: Technology, Cosmology, and Traveling experiences.<br/><br/><br/>
+**Ride the Future** is the place to record my personal interests in the form of blog articles. Currently I plan to write articles on: Technology, Conference Traveling experiences, My thoughts on various wireless technologies and some general posts.<br/><br/><br/>
