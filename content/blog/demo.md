@@ -49,7 +49,5 @@ subtitle = "Learn to Grow"
  # CSS class.
  css_class = ""
 +++
-<br/>
 
-
-**The Curious World** is the place to record my personal interests in the form of blog articles. Currently I plan to write articles on: Technology, Cosmology, and Traveling experiences.<br/><br/><br/>
+Hello
