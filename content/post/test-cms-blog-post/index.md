@@ -17,6 +17,16 @@ Here testing using CMS:
 
 Testing in-line math: $x + y = z$
 
+fewbjfwrbkfbjrfbf
+
+cfefkwrfbjrwbf
+
+efhbwefrjf
+
+ehbfwjrbhfk
+
+cehbfwekfhkwf
+
 Now testing Block math:
 
 $$\gamma\_{n} = \frac{ \left | \left (\mathbf x\_{n} - \mathbf x\_{n-1} \right )^T \left \[\nabla F (\mathbf x\_{n}) - \nabla F (\mathbf x\_{n-1}) \right ] \right |} {\left |\nabla F(\mathbf{x}\_{n}) - \nabla F(\mathbf{x}_{n-1}) \right |^2}$$
