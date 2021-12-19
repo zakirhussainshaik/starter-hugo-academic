@@ -25,7 +25,7 @@ experience:
   - title: Assistant Systems Engineer
     company: Tata Consultancy Services
     company_url: 'https://www.tcs.com/'
-    company_logo: TCS
+    company_logo: org-gc
     location: Bangalore
     date_start: '2014-10-20'
     date_end: '2016-07-20'
@@ -39,7 +39,7 @@ experience:
   - title: Intern
     company: Gayatri Vidya Parishad Scientific and Industrial Research Centre (GVP-SIRC)
     company_url: 'http://www.gvpsirc.in/index.html'
-    company_logo: gvp
+    company_logo: org-x
     location: Visakhapatnam
     date_start: '2012-12-01'
     date_end: '2014-04-30'
