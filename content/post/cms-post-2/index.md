@@ -1,6 +1,6 @@
 ---
-title: CMS Post 2
-subtitle: This is second post from CMS
+title: MATLAB LDPC Example
+subtitle: LDPC with MATLAB just made simple
 date: 2021-12-19T14:44:28.684Z
 draft: false
 featured: false
@@ -45,3 +45,7 @@ n = 1296; % Codeword length
 decodAlgo = 'offset-min-sum'; % LDPC decoding algorithm
 [cfgLDPCEnc,decodercfg] = generateConfigLDPC(rate,n,'decoderAlgo',decodAlgo,'standard','wlan');
 ```
+
+
+
+Download the files from: <https://se.mathworks.com/matlabcentral/fileexchange/103360-matlab-ldpc-config>
