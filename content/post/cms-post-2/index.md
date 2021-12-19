@@ -24,7 +24,7 @@ When I get some time in the future, I can include WiMAX and 5G NR standard parit
 
 Following syntaxes are supported:
 
-```matlab
+```
 % Example 1:
 rate = 1/2;
 [cfgLDPCEnc,decodercfg] = generateConfigLDPC(rate,'decoderAlgo','bp');
