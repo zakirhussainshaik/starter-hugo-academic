@@ -8,8 +8,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "Academic Template"
-subtitle = ""
+title = "Welcome to my blog: **Ride the Future**"
+subtitle = "Learn to Grow"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -52,4 +52,4 @@ subtitle = ""
 <br/>
 
 
-**The Curious World** is the place to record my personal interests in the form of blog articles. Currently I plan to write articles on: Technology, Cosmology, and Traveling experiences.<br/><br/><br/>
+**Ride the Future** is the place to record my personal interests in the form of blog articles. Currently I plan to write articles on: Technology, Cosmology, and Traveling experiences.<br/><br/><br/>
