@@ -39,7 +39,7 @@ experience:
   - title: Intern
     company: Gayatri Vidya Parishad Scientific and Industrial Research Centre (GVP-SIRC)
     company_url: 'http://www.gvpsirc.in/index.html'
-    company_logo: oorg-gc
+    company_logo: org-gc
     location: Visakhapatnam
     date_start: '2012-12-01'
     date_end: '2014-04-30'
