@@ -21,3 +21,27 @@ For all those who just want to use the function with a specific code rate, I hav
 
 As of now, the rates supported by the function created are as per IEEE 802.11 standard, which supports: 1/2, 2/3, 3/4, and 5/6. Similarly, currently supported codeword block lengths: 648, 1296, and 1944. The default codeword length is 648 unless otherwise specified, and the "standard" argument can be left empty as currently, only the WLAN standard is supported.
 When I get some time in the future, I can include WiMAX and 5G NR standard parity matrices.
+
+Following syntaxes are supported:
+
+```
+% Example 1:
+rate = 1/2;
+[cfgLDPCEnc,decodercfg] = generateConfigLDPC(rate,'decoderAlgo','bp');
+
+% Example 2:
+rate = 1/2;
+n = 1944;
+[cfgLDPCEnc,decodercfg] = generateConfigLDPC(rate,n,'decoderAlgo','norm-min-sum');
+
+% Example 3:
+rate = 1/2;
+n = 1944;
+[cfgLDPCEnc,decodercfg] = generateConfigLDPC(rate,n,'decoderAlgo','norm-min-sum','standard','wlan');
+
+% Example 4
+rate = 3/4; % code rate
+n = 1296; % Codeword length
+decodAlgo = 'offset-min-sum'; % LDPC decoding algorithm
+[cfgLDPCEnc,decodercfg] = generateConfigLDPC(rate,n,'decoderAlgo',decodAlgo,'standard','wlan');
+```
