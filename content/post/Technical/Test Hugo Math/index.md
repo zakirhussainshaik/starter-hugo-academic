@@ -16,7 +16,7 @@ tags:
   - Mathjax
 categories:
   - Math
-  - Post
+  - Technical
 projects: []
 image:
   caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)"
