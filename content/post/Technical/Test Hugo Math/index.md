@@ -1,8 +1,6 @@
 ---
-title: Welcome to Wowchemy, the website builder for Hugo
-subtitle: Welcome 👋 We know that first impressions are important, so we've
-  populated your new site with some initial content to help you get familiar
-  with everything in no time.
+title: Testing Hugo Math Rendering
+subtitle: Checking Mathjax working
 date: 2020-12-13T00:00:00.000Z
 summary: Testing Posts
 draft: false
@@ -25,9 +23,8 @@ image:
   preview_only: false
 ---
 ## Testing Math
+Testing in-line math: $x + y = z$
 
-In-line math: $x + y = z$
+Now testing Block math:
 
-Block math:
-
-$$\gamma{n} = \frac{ \left | \left (\mathbf x\_{n} - \mathbf x\_{n-1} \right )^T \left \[\nabla F (\mathbf x\_{n}) - \nabla F (\mathbf x\_{n-1}) \right ] \right |} {\left |\nabla F(\mathbf{x}\_{n}) - \nabla F(\mathbf{x}\_{n-1}) \right |^2}$$
+$$\gamma_{n} = \frac{ \left | \left (\mathbf x\_{n} - \mathbf x\_{n-1} \right )^T \left \[\nabla F (\mathbf x\_{n}) - \nabla F (\mathbf x\_{n-1}) \right ] \right |} {\left |\nabla F(\mathbf{x}\_{n}) - \nabla F(\mathbf{x}\_{n-1}) \right |^2}$$
