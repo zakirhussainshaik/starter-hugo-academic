@@ -4,6 +4,9 @@ subtitle: LDPC with MATLAB just made simple
 date: 2021-12-19T14:44:28.684Z
 draft: false
 featured: false
+tags:
+  - MATLAB
+  - LDPC
 categories:
   - Technical
 projects:
