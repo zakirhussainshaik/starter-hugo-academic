@@ -15,7 +15,7 @@ tags:
   - Academic
   - Mathjax
 categories:
-  - Demo
+  - Math
   - Post
 projects: []
 image:
