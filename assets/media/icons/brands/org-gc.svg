@@ -1,15 +1,1 @@
-<svg width="56" height="56" xmlns="http://www.w3.org/2000/svg">
- <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
- <g>
-  <title>background</title>
-  <rect fill="#fff" id="canvas_background" height="58" width="58" y="-1" x="-1"/>
-  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
-   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
-  </g>
- </g>
- <g>
-  <title>Layer 1</title>
-  <path stroke="#000" id="svg_2" d="m0.5,28l11.78572,-23.57143l31.42857,0l11.78571,23.57143l-11.78571,23.57143l-31.42857,0l-11.78572,-23.57143z" stroke-width="2" fill="#fff"/>
-  <text font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="'Montserrat Black'" font-size="30" id="svg_1" y="38.75" x="5.30469" stroke-width="0" stroke="#000" fill="#000000">GC</text>
- </g>
-</svg>
+<svg width="222" height="218" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" overflow="hidden"><defs><clipPath id="clip0"><rect x="3124" y="1472" width="222" height="218"/></clipPath></defs><g clip-path="url(#clip0)" transform="translate(-3124 -1472)"><path d="M3140.5 1578.5 3181 1497.5 3289 1497.5 3329.5 1578.5 3289 1659.5 3181 1659.5 3140.5 1578.5Z" stroke="#000000" stroke-width="6.875" stroke-miterlimit="8" fill="#FFFFFF" fill-rule="evenodd"/><text font-family="Times New Roman,Times New Roman_MSFontService,sans-serif" font-weight="700" font-size="103" transform="matrix(1 0 0 1 3186.83 1604)">֍</text></g></svg>
