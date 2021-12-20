@@ -2,7 +2,6 @@
 title: MMSE-optimal sequential processing for cell-free massive MIMO with radio
   stripes
 publication_types:
-  - "0"
   - "2"
 authors:
   - admin
