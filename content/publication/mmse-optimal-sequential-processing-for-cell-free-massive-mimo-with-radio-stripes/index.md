@@ -8,6 +8,7 @@ authors:
   - admin
   - Emil Björnson
   - Erik G. Larsson
+doi: 10.1109/TCOMM.2021.3100619
 publication: IEEE Transactions on Communications
 publication_short: In *TCOM*
 abstract: Cell-free massive multiple-input-multiple-output (mMIMO) is an
