@@ -1,87 +1,60 @@
 ---
-title: "An example conference paper"
-
-# Authors
-# If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
-# and it will be replaced with their full name and linked to their profile.
+abstract: Cell-free massive multiple-input-multiple-output (mMIMO) is an
+  emerging technology for beyond 5G with its promising features such as higher
+  spectral efficiency and superior spatial diversity as compared to conventional
+  multiple-input-multiple-output (MIMO) technology. The main working principle
+  of cell-free mMIMO is that many distributed access points (APs) cooperate
+  simultaneously to serve all the users within the network without creating cell
+  boundaries. This paper considers the uplink of a cell-free mMIMO system
+  utilizing the radio stripe network architecture with a sequential fronthaul
+  between the APs. A novel uplink sequential processing algorithm is developed,
+  which is proved to be optimal in both the maximum spectral efficiency (SE) and
+  the minimum mean square error (MSE) sense. A detailed quantitative analysis of
+  the fronthaul requirement or signaling of the proposed algorithm and its
+  comparison with competing sub-optimal algorithms is provided. Key conclusions
+  and implications are summarized in the form of corollaries. Based on the
+  analytical and numerical simulation results, we conclude that the proposed
+  scheme can significantly reduce the fronthaul signaling, without compromising
+  the communication performance.
+slides: ""
+url_pdf: ""
+publication_types:
+  - "2"
 authors:
-- admin
-- Robert Ford
-
-# Author notes (optional)
+  - admin
+  - Emil Björnson
+  - Erik G. Larsson
 author_notes:
-- "Equal contribution"
-- "Equal contribution"
-
-date: "2013-07-01T00:00:00Z"
+  - Equal contribution
+  - Equal contribution
+publication: IEEE Transactions on Communications
+summary: The paper proposed optimal MMSE sequential processing for radio stripes.
+url_dataset: ""
+url_project: ""
+publication_short: In *TCOM*
+url_source: ""
+url_video: ""
+title: MMSE-optimal sequential processing for cell-free massive MIMO with radio
+  stripes
 doi: ""
-
-# Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
-
-# Publication type.
-# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
-# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
-publication_types: ["1"]
-
-# Publication name and optional abbreviated publication name.
-publication: In *Wowchemy Conference*
-publication_short: In *ICW*
-
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-
-tags: []
-
-# Display this page in the Featured widget?
 featured: true
-
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
-url_pdf: ''
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+tags:
+  - Cell Free
+  - Massive MIMO
+  - MMSE
+  - SE
+  - Sequential
+  - Radio Stripe
+  - Optimal
+projects: []
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ""
   focal_point: ""
   preview_only: false
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects:
-- example
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: example
+date: 2021-12-20T13:53:07.114Z
+url_slides: ""
+publishDate: 2017-01-01T00:00:00Z
+url_poster: ""
+url_code: ""
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
+The MATLAB source code for the paper can be found here: <https://github.com/emilbjornson/radio-stripes>
