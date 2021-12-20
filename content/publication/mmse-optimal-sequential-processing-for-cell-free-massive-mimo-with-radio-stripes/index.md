@@ -44,4 +44,4 @@ image:
 summary: The paper proposed optimal MMSE sequential processing for radio stripes.
 date: 2021-12-20T13:54:28.176Z
 ---
-The MATLAB source code for the paper can be found here: <https://github.com/emilbjornson/radio-stripes>
+The complete peer-reviewed paper can be found [here](https://ieeexplore.ieee.org/abstract/document/9499049).  The pre-print of the paper can be found [here ](https://arxiv.org/abs/2012.13928)(this is not peer-reviewed). The MATLAB source code for the paper can be found [here](<https://github.com/emilbjornson/radio-stripes>).
