@@ -14,7 +14,7 @@ main:
     url: '#accomplishments'
     weight: 30
   - name: Publications
-    url: 'https://scholar.google.co.in/citations?user=tWX2_UUAAAAJ&hl=en'
+    url: '#publications'
     weight: 40
   - name: Blog
     url: 'blog/'
