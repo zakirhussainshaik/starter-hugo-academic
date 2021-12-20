@@ -9,7 +9,7 @@ authors:
   - Erik G. Larsson
 doi: 10.1109/TCOMM.2021.3100619
 publication: IEEE Transactions on Communications
-publication_short: In *TCOM*
+publication_short: In **TCOM**
 abstract: Cell-free massive multiple-input-multiple-output (mMIMO) is an
   emerging technology for beyond 5G with its promising features such as higher
   spectral efficiency and superior spatial diversity as compared to conventional
