@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Shaik Zakir Hussain # Website name
-baseurl: 'https://example.com/' # Website URL
+baseurl: 'https://www.zakirtechblog.com/' # Website URL
 copyright: '© 2021 Shaik Zakir Hussain' # Footer text, e.g. '© {year} Me'
 
 ############################
