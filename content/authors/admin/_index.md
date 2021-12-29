@@ -40,7 +40,7 @@ education:
       year: 2024
     - course: MS by Research in ECE
       institution: IIIT Hyderabad, India
-      year: 2016
+      year: 2018
     - course: " Bachelor of Technology in ECE"
       institution: JNTU Kakinada, India
       year: 2014
