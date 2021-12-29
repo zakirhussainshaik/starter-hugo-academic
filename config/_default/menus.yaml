@@ -17,7 +17,7 @@ main:
     url: '#publications'
     weight: 40
   - name: Ride-the-Future
-    url: 'blog/'
+    url: 'RidetheFuture/'
     weight: 50
 
 # Link to a PDF of your resume/CV from the menu.
