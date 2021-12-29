@@ -16,7 +16,7 @@ main:
   - name: Publications
     url: '#publications'
     weight: 40
-  - name: Blog
+  - name: Ride-the-Future
     url: 'blog/'
     weight: 50
 
