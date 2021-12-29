@@ -4,6 +4,11 @@ subtitle: 5G Technical Jargons Made Simple
 date: 2021-12-29T07:08:10.421Z
 draft: false
 featured: false
+tags:
+  - 5G
+  - Massive MIMO
+categories:
+  - Technical
 image:
   filename: featured
   focal_point: Smart
