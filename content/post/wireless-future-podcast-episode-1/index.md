@@ -14,9 +14,7 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-Over a decade ago, the thought of many antennas at the base station was discouraged and criticized. But, here we are today when Massive MIMO technology has become a reality. Learn more about where we stand today concerning Massive MIMO technology in an interesting conversation between two of the big names in the wireless communications academic world, Prof. Erik G. Larsson and Prof. Emil Björnson.
-
-
+Over a decade ago, the thought of many antennas at the base station was discouraged and criticized. But, here we are today when Massive MIMO technology has become a reality. Learn more about where we stand today concerning Massive MIMO technology in an interesting conversation between two of the famous names in the wireless communications academic world, Prof. Erik G. Larsson and Prof. Emil Björnson.
 
 <!--StartFragment-->
 
