@@ -11,4 +11,4 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-What is Channel Hardening and Favorable Propagation in Massive MIMO? This post will be available on 10th April 2022.
+What is Channel Hardening and Favorable Propagation in Massive MIMO? This post will be available on 18th April 2022.
