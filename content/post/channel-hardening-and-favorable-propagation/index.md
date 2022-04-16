@@ -4,6 +4,10 @@ subtitle: Technical jargons made simple
 date: 2022-04-04T07:31:54.876Z
 draft: false
 featured: false
+tags:
+  - MIMO
+  - Channel Hardening
+  - Favorable Propagation
 categories:
   - Technical
 image:
