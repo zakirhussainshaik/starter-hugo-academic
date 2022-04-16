@@ -43,12 +43,8 @@ $$\frac{\Vert \mathbf{h}\_{1} \Vert^2}{N} \rightarrow \mathbb{E}(\vert h\_{11}\v
 
 and 
 
-<!--StartFragment-->
+{{< math >}}
 
-```latex
-\frac{\mathbf{h}_{1}^H \mathbf{h}_2}{N} \rightarrow \mathbb{E}( )  = 0
-```
+$$\frac{\mathbf{h}_{1}^H \mathbf{h}\_2}{N} \rightarrow \mathbb{E}(h\_{11}h_{21} )  = 0$$
 
-<!--EndFragment-->
-
-$$\frac{\mathbf{h}_{1}^H \mathbf{h}_2}{N} \rightarrow \mathbb{E}( )  = 0$$
+{{< math >}}
