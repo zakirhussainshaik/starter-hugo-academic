@@ -59,6 +59,8 @@ On other hand, the interference term has become zero, which is more of a favorab
 
 These concepts in simple words imply that Massive MIMO network with a simple precoder like MR one can turn a Rayleigh fading channel to an effective AWGN channel and moreover effectively mitigates the interference by virtue of its properties presented above which do not normally occur with conventional MIMO (with 2-4) antennas hold.
 
+Hope these concepts are clear to the readers with a basic technical background in wireless communications.
+
 Now there are some questions for the readers to think about, why can't we deploy infinite antennas (practically let's say some 1000 antennas) and with very minimal processing get the optimally best performance? Are there any practical limitations issues?
 
 We mentioned in the introduction that the practically deployed Massive MIMO system has 64 antennas (as of now).  Then, the question arises with just 64 antennas do the above properties hold?
