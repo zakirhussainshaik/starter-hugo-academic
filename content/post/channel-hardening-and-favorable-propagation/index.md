@@ -15,8 +15,14 @@ image:
 
 One may wonder what makes Massive MIMO so special than its pioneering technology MIMO, except that it has a massive number of antennas rather than four to eight antennas. One immediate benefit that one can easily guess is that with a very large number of antennas, the various gains and benefits Massive MIMO networks can provide over standard MIMO networks (4-8 antennas) will be significant. However, two key important features of Massive MIMO make this technology unique compared to MIMO technology. They are channel hardening and favourable propagation.
 
-To mathematical understand the concept, consider the signal model where base station has $M$ antennas in downlink where user-$k$ receives the following signal:
+To mathematical understand these concepts, consider the following noiseless signal model where base station has $M$ antennas in downlink where user-$k$ receives the following signal:
 
 $$y\_{k} = \mathbf h\_{k}^H\mathbf{x}$$
 
-where $ \mathbf h_{k} \in \mathbb{C}^{N\times 1}$ and $\mathbf{x}$ is the transmitted signal by base station to all users.
+where $ \mathbf h_{k} \in \mathbb{C}^{N\times 1}$ is the channel between the base station and user $k$ and $\mathbf{x}$ is the transmitted signal by base station to all users which is given as follows
+
+$$\mathbf{x} = \sum_{i=1}^{K} \mathbf{w}_i q_i$$
+
+where $\mathbf{w}_k$ is the precoder designated for user $k$ and $q_k$ is the message signal intended for user $k$. Then the overall received signal can be expressed as follows:
+
+$$y\_{k} = \mathbf h\_{k}^H\mathbf{w}_k q\_k + \sum\_{i=1, i\neq k}^{K}\mathbf h_{k}^H\mathbf{w}_i q_i $$
