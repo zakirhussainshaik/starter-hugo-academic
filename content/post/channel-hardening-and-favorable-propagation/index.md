@@ -25,4 +25,4 @@ $$\mathbf{x} = \sum_{i=1}^{K} \mathbf{w}_i q_i$$
 
 where $\mathbf{w}_k$ is the precoder designated for user $k$ and $q_k$ is the message signal intended for user $k$. Then the overall received signal can be expressed as follows:
 
-$$y\_{k} = \mathbf h\_{k}^H\mathbf{w}_k q\_k + \sum\_{i=1}^{K}\mathbf h_{k}^H\mathbf{w}_i q_i $$
+$$y\_{k} = \mathbf{h}\_{k}^H\mathbf{w}_k q\_k + \sum\_{i=1, i\neq k}^{K}\mathbf{h}_{k}^H\mathbf{w}_i q_i $$
