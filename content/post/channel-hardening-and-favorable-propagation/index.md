@@ -25,7 +25,7 @@ $$\mathbf{x} = \mathbf{w}_1 q_1 + \mathbf{w}_2 q_2$$
 
 where $\mathbf{w}_k$ is the precoder designated for user $k$ and $q_k$ is the message signal intended for user $k$. Then the overall received signal can be expressed as follows:
 
-$$y\_{1} = \mathbf{h}\_{1}^H \mathbf{w}_*k q_k +* \sum\_{i =1, i \neq k}^{K}  \frac{\mathbf{h}\_{k}^H \mathbf{h}_i}{N} q_i$$
+$$y\_{k} = \frac{\Vert \mathbf{h}\_{k} \Vert^2}{N} q\_k + \sum\_{i =1, i \neq k}^{K}  \frac{\mathbf{h}_{k}^H \mathbf{h}_i}{N} q_i$$
 
 The first term is the signal intended for the user $k$ and second term is signal intended for other users but it acts as interfering signal to user $k$ and hence undesirable.
 
