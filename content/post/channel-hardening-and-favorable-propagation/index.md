@@ -39,7 +39,7 @@ $$y\_{1} = \frac{\Vert \mathbf{h}\_{1} \Vert^2}{N} q\_1 +  \frac{\mathbf{h}\_{1}
 
 There is a very interesting observation in the above equation as $N \rightarrow \infty$, i.e., as the number of antennas at the base station grows higher and higher. Can you see ?
 
-To see that, let's consider a Rayleigh fading channel model which is most commonly used to model wireless channels in literature. Moreover, assume that all the elements of the channel vector are i.i.d and have zero-mean with unit variance (for the sake of simplicity).
+To see that, let's consider a Rayleigh fading channel model which is most commonly used to model wireless channels in academic literature. Moreover, assume that all the elements of the channel vector are i.i.d (independent and identically distributed) and have zero-mean with unit variance (for the sake of simplicity).
 
 Then from the law of large number following holds
 
@@ -57,7 +57,7 @@ what this essentially tells us is that the effective channel (inner product betw
 
 On other hand, the interference term has become zero, which is more of a favorable situation. Here, technically channels become orthogonal as $N \rightarrow \infty$ which we refer to as favorable propagation.
 
-These concepts in simple words imply that by simple precoder like MR one can turn a Rayleigh fading channel to an effective AWGN channel and moreover mitigates interference by virtue of its properties presented above which do not normally occur with conventional MIMO (with 2-4) antennas hold.
+These concepts in simple words imply that Massive MIMO network with a simple precoder like MR one can turn a Rayleigh fading channel to an effective AWGN channel and moreover effectively mitigates the interference by virtue of its properties presented above which do not normally occur with conventional MIMO (with 2-4) antennas hold.
 
 Now there are some questions for the readers to think about, why can't we deploy infinite antennas (practically let's say some 1000 antennas) and with very minimal processing get the optimally best performance? Are there any practical limitations issues?
 
