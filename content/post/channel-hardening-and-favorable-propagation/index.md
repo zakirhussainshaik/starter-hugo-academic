@@ -54,3 +54,11 @@ what this essentially tells us is that the effective channel (inner product betw
 On other hand, the interference term has become zero, which is more of a favorable situation. Here, technically channels become orthogonal as $N \rightarrow \infty$ which we refer to as favorable propagation.
 
 These concepts in simple words imply that by simple precoder like MR one can turn a Rayleigh fading channel to an effective AWGN channel and moreover mitigates interference by virtue of its properties presented above which do not normally occur with conventional MIMO (with 2-4) antennas hold.
+
+Now there are some questions for the readers to think about, why can't we deploy infinite antennas (practically let's say some 1000 antennas) and with very minimal processing get the optimally best performance? Are there any practical limitations issues?
+
+We mentioned in the introduction that the practically deployed Massive MIMO system has 64 antennas (as of now).  Then, the question arises with just 64 antennas do the above properties hold?
+
+The research community currently talking about distributed MIMO (there are many names: Cell-Free Massive MIMO, Cell-Free Networks, Network MIMO etc).  Do these properties hold for such networks?
+
+Think over it, we shall answer these concepts in the next post and also do some simulations in MATLAB and check whether 64 antennas are good enough for the above properties to hold.
