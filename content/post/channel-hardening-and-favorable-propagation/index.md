@@ -43,4 +43,4 @@ $$\frac{\Vert \mathbf{h}\_{1} \Vert^2}{N} \rightarrow \mathbb{E}(\vert h\_{11}\v
 
 and 
 
-$$\frac{\mathbf{h}\\_{1}^H \mathbf{h}\\\_2}{N} \rightarrow \mathbb{E}(h\\\_{11}^{\*}h\\_{21} )  = 0$$
+$$\frac{\mathbf{h}_{1}^H \mathbf{h}\\_2}{N} \rightarrow \mathbb{E}(h\_{11}^{\*}h\_{21} )  = 0$$
