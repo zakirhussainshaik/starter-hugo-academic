@@ -31,4 +31,4 @@ The first term is the signal intended for the user $k$ and second term is signal
 
 This is where the precoders $\mathbf{w}_i$ usefulness comes into picture. There are many commonly utlized precoders such as maximum ratio transmitter (MRT), zero forcing (ZF) and regularized zero forcing (RZF). Computationally less expensive is MRT which is technically given by $\mathbf{w}_i = \frac{\mathbf{h}_i}{N}$ (different literatures have different scaling factors infront of this term, but we will consider this version to get the essence of the concepts we are trying decipher). Then accordingly, one can write the received signal as follow:
 
-$$y\_{k} = \frac{\Vert \mathbf{h}\_{k} \Vert^2}{N} q\_k + \sum\_{i =1, i \neq k}^{K}  \frac{\mathbf{h}_{k}^H \mathbf{h}_i}{N} q_i$$
+$$y\_{k} = \frac{\Vert \mathbf{h}\_{1} \Vert^2}{N} q\_1 +  \frac{\mathbf{h}\_{1}^H \mathbf{h}_2}{N} q_2$$
