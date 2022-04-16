@@ -15,17 +15,17 @@ image:
 
 One may wonder what makes Massive MIMO so special than its pioneering technology MIMO, except that it has a massive number of antennas rather than four to eight antennas. One immediate benefit that one can easily guess is that with a very large number of antennas, the various gains and benefits Massive MIMO networks can provide over standard MIMO networks (4-8 antennas) will be significant. However, two key important features of Massive MIMO make this technology unique compared to MIMO technology. They are channel hardening and favourable propagation.
 
-To mathematical understand these concepts, consider the following noiseless signal model where base station has $M$ antennas in downlink where user-$k$ receives the following signal:
+To mathematical understand these concepts, consider the following noiseless signal model where base station has $M$ antennas in downlink where there are $2$users and user $1$ receives the following signal:
 
-$$y\_{k} = \mathbf h\_{k}^H\mathbf{x}$$
+$$y\_{1} = \mathbf h\_{1}^H\mathbf{x}$$
 
-where $ \mathbf h_{k} \in \mathbb{C}^{N\times 1}$ is the channel between the base station and user $k$ and $\mathbf{x}$ is the transmitted signal by base station to all users which is given as follows
+where $ \mathbf h_{1} \in \mathbb{C}^{N\times 1}$ is the channel between the base station and user $1$ and $\mathbf{x}$ is the transmitted signal by base station to all users which is given as follows
 
-$$\mathbf{x} = \sum_{i =1}^{K} \mathbf{w}_i q_i$$
+$$\mathbf{x} = \mathbf{w}_1 q_1 + \mathbf{w}_2 q_2$$
 
 where $\mathbf{w}_k$ is the precoder designated for user $k$ and $q_k$ is the message signal intended for user $k$. Then the overall received signal can be expressed as follows:
 
-$$y\_{k} = \mathbf{h}\_{k}^H \mathbf{w}_k q\_k + \sum_{i =1}^{K} \mathbf{h}_{k}^H \mathbf{w}_i q_i$$
+$$y\_{1} = \mathbf{h}\_{1}^H \mathbf{w}_*k q_k + \sum*{i =1}^{K} \mathbf{h}_{k}^H \mathbf{w}_i q_i$$
 
 The first term is the signal intended for the user $k$ and second term is signal intended for other users but it acts as interfering signal to user $k$ and hence undesirable.
 
