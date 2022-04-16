@@ -27,8 +27,10 @@ where $\mathbf{w}_k$ is the precoder designated for user $k$ and $q_k$ is the me
 
 $$y\_{1} = \mathbf{h}\_{1}^H  \mathbf{w}_1 q\_1 +  \mathbf{h}\_{1}^H  \mathbf{w}_2 q_2$$
 
-The first term is the signal intended for the user $k$ and second term is signal intended for other users but it acts as interfering signal to user $k$ and hence undesirable.
+The first term is the signal intended for the user $k$, and the second term is the signal intended for user $2$, but it acts as an interfering signal to user $k$ and is hence undesirable.
 
-This is where the precoders $\mathbf{w}_i$ usefulness comes into picture. There are many commonly utlized precoders such as maximum ratio transmitter (MRT), zero forcing (ZF) and regularized zero forcing (RZF). Computationally less expensive is MRT which is technically given by $\mathbf{w}_i = \frac{\mathbf{h}_i}{N}$ (different literatures have different scaling factors infront of this term, but we will consider this version to get the essence of the concepts we are trying decipher). Then accordingly, one can write the received signal as follow:
+This is where the precoders $\mathbf{w}_i$ usefulness comes into picture. There are many commonly utilised precoders such as maximum ratio transmitter (MRT), zero forcing (ZF) and regularized zero forcing (RZF). Computationally less expensive is MRT which is technically given by $\mathbf{w}_i = \frac{\mathbf{h}_i}{N}$ (different literatures have different scaling factors infront of this term, but we will consider this version to get the essence of the concepts we are trying decipher). Then accordingly, one can write the received signal as follow:
 
-$$y\_{k} = \frac{\Vert \mathbf{h}\_{1} \Vert^2}{N} q\_1 +  \frac{\mathbf{h}\_{1}^H \mathbf{h}_2}{N} q_2$$
+$$y\_{1} = \frac{\Vert \mathbf{h}\_{1} \Vert^2}{N} q\_1 +  \frac{\mathbf{h}\_{1}^H \mathbf{h}_2}{N} q_2$$
+
+There is a very interesting observation in the above equation as $N \rightarrow \infty$, i.e., as the number of antennas at the base station grows higher and higher.
