@@ -33,4 +33,14 @@ This is where the precoders $\mathbf{w}_i$ usefulness comes into picture. There 
 
 $$y\_{1} = \frac{\Vert \mathbf{h}\_{1} \Vert^2}{N} q\_1 +  \frac{\mathbf{h}\_{1}^H \mathbf{h}_2}{N} q_2$$
 
-There is a very interesting observation in the above equation as $N \rightarrow \infty$, i.e., as the number of antennas at the base station grows higher and higher.
+There is a very interesting observation in the above equation as $N \rightarrow \infty$, i.e., as the number of antennas at the base station grows higher and higher. Can you see ?
+
+To see that, let's consider a Rayleigh fading channel model which is most commonly used to model wireless channels in literature. Moreover, assume that all the elements of the channel vector are i.i.d and have zero-mean with unit variance (for the sake of simplicity).
+
+Then from the law of large number following holds
+
+$$\frac{\Vert \mathbf{h}\_{1} \Vert^2}{N} \rightarrow \mathbb{E}(\vert h\_{11}\vert^2)  = 1$$
+
+and 
+
+$$\frac{\mathbf{h}_{1}^H \mathbf{h}\_2}{N} \rightarrow \mathbb{E}( h\_{11}^{*}h_{21})  = 0$$
