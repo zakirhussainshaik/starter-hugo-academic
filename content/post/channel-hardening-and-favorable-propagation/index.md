@@ -25,10 +25,10 @@ $$\mathbf{x} = \mathbf{w}_1 q_1 + \mathbf{w}_2 q_2$$
 
 where $\mathbf{w}_k$ is the precoder designated for user $k$ and $q_k$ is the message signal intended for user $k$. Then the overall received signal can be expressed as follows:
 
-$$y\_{1} = \mathbf{h}\_{1}^H \mathbf{w}_*k q_k +* \sum\_{i =1, \neq k}^{K}  \mathbf{h}\_{k}^H \mathbf{w}_i q_i$$
+$$y\_{1} = \mathbf{h}\_{1}^H \mathbf{w}_*k q_k +* \sum\_{i =1, i \neq k}^{K}  \frac{\mathbf{h}\_{k}^H \mathbf{h}_i}{N} q_i$$
 
 The first term is the signal intended for the user $k$ and second term is signal intended for other users but it acts as interfering signal to user $k$ and hence undesirable.
 
 This is where the precoders $\mathbf{w}_i$ usefulness comes into picture. There are many commonly utlized precoders such as maximum ratio transmitter (MRT), zero forcing (ZF) and regularized zero forcing (RZF). Computationally less expensive is MRT which is technically given by $\mathbf{w}_i = \frac{\mathbf{h}_i}{N}$ (different literatures have different scaling factors infront of this term, but we will consider this version to get the essence of the concepts we are trying decipher). Then accordingly, one can write the received signal as follow:
 
-$$y\_{k} = \frac{\Vert \mathbf{h}\_{k} \Vert^2}{N} q\_k + \sum\_{i =1, \neq k}^{K}  \frac{\mathbf{h}_{k}^H \mathbf{h}_i}{N} q_i$$
+$$y\_{k} = \frac{\Vert \mathbf{h}\_{k} \Vert^2}{N} q\_k + \sum\_{i =1, i \neq k}^{K}  \frac{\mathbf{h}_{k}^H \mathbf{h}_i}{N} q_i$$
