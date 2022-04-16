@@ -39,7 +39,11 @@ To see that, let's consider a Rayleigh fading channel model which is most common
 
 Then from the law of large number following holds
 
+{{< math >}}
+
 $$\frac{\Vert \mathbf{h}\_{1} \Vert^2}{N} \rightarrow \mathbb{E}(\vert h\_{11}\vert^2)  = 1$$
+
+{{< /math >}}
 
 and 
 
