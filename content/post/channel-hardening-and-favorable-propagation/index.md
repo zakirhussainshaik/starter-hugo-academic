@@ -45,6 +45,10 @@ and
 
 {{< math >}}
 
-$$\frac{\mathbf{h}_{1}^H \mathbf{h}\_2}{N} \rightarrow \mathbb{E}(h\_{11}h_{21} )  = 0$$
+$$
+
+\frac{\mathbf{h}_{1}^H \mathbf{h}\_2}{N} \rightarrow \mathbb{E}(h\_{11}h_{21} )  = 0
+
+$$
 
 {{< math >}}
