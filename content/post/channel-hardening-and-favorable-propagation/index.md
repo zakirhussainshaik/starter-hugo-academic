@@ -39,12 +39,18 @@ To see that, let's consider a Rayleigh fading channel model which is most common
 
 Then from the law of large number following holds
 
-{{< math >}}
-
 $$\frac{\Vert \mathbf{h}\_{1} \Vert^2}{N} \rightarrow \mathbb{E}(\vert h\_{11}\vert^2)  = 1$$
-
-{{< /math >}}
 
 and 
 
 $$\frac{\mathbf{h}_{1}^H \mathbf{h}\_2}{N} \rightarrow \mathbb{E}(h\_{11}^{\*}h\_{21} )  = 0$$
+
+Thus, the implication on the received signal is as follows
+
+$$y_{1} \rightarrow  q_1$$
+
+what this essentially tells us is that the effective channel (inner product between the precoder and the channel vector) become constant (in the example above the constant is one) i.e., the randomness in the channel has disappeared which is what we call technically the channel hardening. Here, the term "harden" refers to the diminishing randomness of the effective channel and becoming more deterministic.
+
+On other hand, the interference term has become zero, which is more of a favorable situation. Here, technically channels become orthogonal as $N \rightarrow \infty$ which we refer to as favorable propagation.
+
+These concepts in simple words imply that by simple precoder like MR one can turn a Rayleigh fading channel to an effective AWGN channel and moreover mitigates interference by virtue of its properties presented above which do not normally occur with conventional MIMO (with 2-4) antennas hold.
