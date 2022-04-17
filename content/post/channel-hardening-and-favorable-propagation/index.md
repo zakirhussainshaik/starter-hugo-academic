@@ -49,7 +49,7 @@ and
 
 $$\frac{\mathbf{h}_{1}^H \mathbf{h}\_2}{N} \rightarrow \mathbb{E}(h\_{11}^{*}h_{21} )  = 0$$
 
-where $h\_{11} corresponds to the first element of vector $\mathbf{h}\_{1}$ and similarly $h\_{21}$  corresponds to the first element of vector $\mathbf{h}\_{2}$. Here, the operator $(\cdot)^{*}$ is the conjugate of the argument.  
+where $h\_{11}$ corresponds to the first element of vector $\mathbf{h}\_{1}$ and similarly $h\_{21}$  corresponds to the first element of vector $\mathbf{h}\_{2}$. Here, the operator $(\cdot)^{*}$ is the conjugate of the argument.  
 
 Thus, the implication on the received signal is as follows
 
