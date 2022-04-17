@@ -19,7 +19,7 @@ image:
 
 One may wonder what makes Massive MIMO so special than its pioneering technology MIMO, except that it has a massive number of antennas rather than four to eight antennas. One immediate benefit that one can easily guess is that with a very large number of antennas, the various gains and benefits Massive MIMO networks can provide over standard MIMO networks (4-8 antennas) will be significant. However, two key important features of Massive MIMO that make this technology unique compared to MIMO technology are channel hardening and favourable propagation.
 
-To mathematical understand these concepts, consider the following noiseless signal model where base station has $M$ antennas in downlink where there are $2$ users and user $1$ receives the following signal:
+To mathematical understand these concepts, consider the following noiseless signal model where base station has $N$ antennas in downlink where there are $2$ users and user $1$ receives the following signal:
 
 $$y\_{1} = \mathbf h\_{1}^H\mathbf{x} + n$$
 
@@ -31,7 +31,7 @@ where $\mathbf{w}_k  \in \mathbb{C}^{N\times 1}$ is the precoder designated for 
 
 $$y\_{1} = \mathbf{h}\_{1}^H  \mathbf{w}_1 q\_1 +  \mathbf{h}\_{1}^H  \mathbf{w}_2 q_2$$
 
-The first term is the signal intended for the user $k$, and the second term is the signal intended for user $2$, but it acts as an interfering signal to user $k$ and is hence undesirable.
+The first term is the signal intended for the user $1$, and the second term is the signal intended for the user $2$, but it acts as an interfering signal to user $1$ and is hence undesirable. Similarly, one can write the signal received at user $2$ with the signal intended to user $1$ acting as an interfering signal. Here, the operator $(\cdot)^H$ is the Hermitian of the vector/matrix.
 
 This is where the precoders $\mathbf{w}_i$ usefulness comes into the picture to boost the signal component and mitigate the interfering signals. There are many commonly utilised precoders such as maximum ratio transmitter (MRT), zero forcing (ZF) and regularized zero forcing (RZF). Computationally less expensive is MRT which is technically given by $\mathbf{w}_i = \frac{\mathbf{h}_i}{N}$ (different literatures have different scaling factors infront of this term, but we will consider $1/N$ scaling in this tutorial to get the essence of the concepts we are trying decipher). Then accordingly, one can write the received signal as follow:
 
@@ -41,13 +41,15 @@ There is a very interesting observation in the above equation as $N \rightarrow 
 
 To see that, let's consider a Rayleigh fading channel model which is most commonly used to model wireless channels in academic literature. Moreover, assume that all the elements of the channel vector are i.i.d (independent and identically distributed) and have zero-mean with unit variance (for the sake of simplicity).
 
-Then from the law of large number following holds
+Then from the law of large numbers following holds
 
 $$\frac{\Vert \mathbf{h}\_{1} \Vert^2}{N} \rightarrow \mathbb{E}(\vert h\_{11}\vert^2)  = 1$$
 
 and 
 
-$$\frac{\mathbf{h}_{1}^H \mathbf{h}\_2}{N} \rightarrow \mathbb{E}(h\_{11}^{\*}h\_{21} )  = 0$$
+$$\frac{\mathbf{h}_{1}^H \mathbf{h}\_2}{N} \rightarrow \mathbb{E}(h\_{11}^{*}h_{21} )  = 0$$
+
+where $h\_{11} corresponds to the first element of vector $\mathbf{h}\_{1}$ and similarly $h\_{21}$  corresponds to the first element of vector $\mathbf{h}\_{2}$. Here, the operator $(\cdot)^{*}$ is the conjugate of the argument.  
 
 Thus, the implication on the received signal is as follows
 
