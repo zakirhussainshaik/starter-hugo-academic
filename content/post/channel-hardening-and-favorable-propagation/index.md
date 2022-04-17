@@ -27,11 +27,11 @@ where $n$ is the noise which we will assume for sake of this tutorial zero i.e.,
 
 $$\mathbf{x} = \mathbf{w}_1 q_1 + \mathbf{w}_2 q_2$$
 
-where $\mathbf{w}_k  \in \mathbb{C}^{N\times 1}$ is the precoder designated for user $k$ and $q_k$ is the message signal intended for user $k$. Then the overall received signal can be expressed as follows:
+where $\mathbf{w}_k  \in \mathbb{C}^{N\times 1}$ is the precoder designated for user $k$ and $q_k$ is the message signal intended for user $k$.  Also the operator we used $(\cdot)^H$ is the Hermitian of the vector/matrix. Then the overall received signal can be expressed as follows:
 
 $$y\_{1} = \mathbf{h}\_{1}^H  \mathbf{w}_1 q\_1 +  \mathbf{h}\_{1}^H  \mathbf{w}_2 q_2$$
 
-The first term is the signal intended for the user $1$, and the second term is the signal intended for the user $2$, but it acts as an interfering signal to user $1$ and is hence undesirable. Similarly, one can write the signal received at user $2$ with the signal intended to user $1$ acting as an interfering signal. Here, the operator $(\cdot)^H$ is the Hermitian of the vector/matrix.
+The first term is the signal intended for the user $1$, and the second term is the signal intended for the user $2$, but it acts as an interfering signal to user $1$ and is hence undesirable. Similarly, one can write the signal received at user $2$ with the signal intended to user $1$ acting as an interfering signal. 
 
 This is where the precoders $\mathbf{w}_i$ usefulness comes into the picture to boost the signal component and mitigate the interfering signals. There are many commonly utilised precoders such as maximum ratio transmitter (MRT), zero forcing (ZF) and regularized zero forcing (RZF). Computationally less expensive is MRT which is technically given by $\mathbf{w}_i = \frac{\mathbf{h}_i}{N}$ (different literatures have different scaling factors infront of this term, but we will consider $1/N$ scaling in this tutorial to get the essence of the concepts we are trying decipher). Then accordingly, one can write the received signal as follow:
 
