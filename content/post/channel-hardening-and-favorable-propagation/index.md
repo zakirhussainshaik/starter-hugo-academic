@@ -1,5 +1,5 @@
 ---
-title: " Channel Hardening and Favorable Propagation"
+title: " What is Channel Hardening and Favorable Propagation in Massive MIMO?"
 subtitle: Technical jargons made simple
 date: 2022-04-04T07:31:54.876Z
 draft: false
