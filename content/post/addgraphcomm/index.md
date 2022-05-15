@@ -26,7 +26,7 @@ Now I will list down the steps I have followed for integrating this service with
 3. Next click on your site name under *My Sites.* Then select *SETUP* and then *Universal Code.* Scroll below the page and copy the HTML code.
 4. Next head into directories of your wowchemy source files. Create the following folders/subfolders if there not there already: **\starter-hugo-academic\layouts\partials\comments**
 5. Create **graphcomment.html** file and past the code copied in step 3.
-6. Then head to the **params.yaml** file in **\starter-hugo-academic\config_default\**
+6. Then head to the **params.yaml** file in **\starter-hugo-academic\config_default**
 7. Scroll to the **comments** section then enter graphcomment in provider i.e., **provider: 'graphcomment'**
 8. You can customize to which pages the comments should appear.
 
