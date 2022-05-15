@@ -25,7 +25,7 @@ Now I will list down the steps I have followed for integrating this service with
 2. Next select *add a new website* option.  Enter the *Site Name* (it is just a label/tag to choose the specific website from the list if in case you have many websites), *Unique ID* (this is the ID you will be using later in wowchemy theme files to link the website), *Website URL* (this is the website to which you want to add comment system, e.g. www.example.com), *Website Preferred Language* (enter your prefered language, I have used English). I have skipped *Whitelist domains.* Then save the data.
 3. Next click on your site name under *My Sites.* Then select *SETUP* and then *Universal Code.* Scroll below the page and copy the HTML code.
 4. Next head into directories of your wowchemy source files. Create the following folders/subfolders if they are not present there already: **\starter-hugo-academic\layouts\partials\comments**
-5. Create **graphcomment.html** file and past the code copied in step 3.
+5. Create **graphcomment.html** file and paste the code copied in step 3.
 6. Then head to the **params.yaml** file in **\starter-hugo-academic\config_default**
 7. Scroll to the **comments** section then enter graphcomment in provider i.e., **provider: 'graphcomment'**
 8. You can customize to which pages the comments should appear.
