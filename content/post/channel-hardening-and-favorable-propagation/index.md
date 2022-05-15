@@ -71,5 +71,3 @@ We mentioned in the introduction that the practically deployed Massive MIMO syst
 The research community currently talking about distributed MIMO (there are many names: Cell-Free Massive MIMO, Cell-Free Networks, Network MIMO etc).  Do these properties hold for such networks?
 
 Think over it, we shall answer these concepts in the next post and also do some simulations in MATLAB and check whether 64 antennas are good enough for the above properties to hold.
-
-{​{ partial "graphcomment.html" . }}
