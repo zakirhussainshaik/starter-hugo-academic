@@ -3,6 +3,12 @@ title: Integrating GraphComment to Wowchemy Static Website
 date: 2022-05-15T07:15:32.303Z
 draft: false
 featured: false
+tags:
+  - Technology
+  - GraphComment
+  - Wowchemy
+categories:
+  - General
 image:
   filename: featured
   focal_point: Smart
