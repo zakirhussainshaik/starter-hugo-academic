@@ -8,13 +8,13 @@ tags:
   - MIMO
   - Channel Hardening
   - Favorable Propagation
+commentable: true
 categories:
   - Technical
 image:
   filename: featured
   focal_point: Smart
   preview_only: false
-commentable: true  
 ---
 5G is around the corner and soon will be deployed worldwide. If one has been following the technical community closely, we may know that “Massive MIMO” is one of the key enabling technology in 5G. If someone is not aware what the acronym MIMO stands for, MIMO actually stands for multiple-input-multiple-output. Here, the multiple input corresponds to the multiple-transmit antennas that can send various signals by multiplexing, and multiple-output corresponds to multiple users to which the base station will be serving. The word “Massive” indicates that the base station has very large number of antennas, practically 64 antennas and more. For more information, refer to: https://ma-mimo.ellintech.se/2020/05/13/how-massive-are-the-current-massive-mimo-base-stations/
 
@@ -48,7 +48,7 @@ $$\frac{\Vert \mathbf{h}\_{1} \Vert^2}{N} \rightarrow \mathbb{E}(\vert h\_{11}\v
 
 and 
 
-$$\frac{\mathbf{h}\_{1}^H \mathbf{h}\_2}{N} \rightarrow \mathbb{E}(h\_{11}^{*}h\_{21} )  = 0$$
+$$\frac{\mathbf{h}_{1}^H \mathbf{h}\_2}{N} \rightarrow \mathbb{E}(h\_{11}^{*}h_{21} )  = 0$$
 
 where $h\_{11}$ corresponds to the first element of vector $\mathbf{h}\_{1}$ and similarly $h\_{21}$  corresponds to the first element of vector $\mathbf{h}\_{2}$. Here, the operator $(\cdot)^{*}$ is the conjugate of the argument.  
 
@@ -66,8 +66,6 @@ Hope these concepts are clear to the readers with a basic technical background i
 
 Now there are some questions for the readers to think about, why can't we deploy infinite antennas (practically let's say some 1000 antennas) and with very minimal processing like MRT get the optimally best performance? Are there any practical limitations?
 
-We mentioned in the introduction that the practically deployed Massive MIMO system has 64 antennas (as of now).  Then, the question arises with just 64 antennas do the above properties hold?
+We mentioned in the introduction that the practically deployed Massive MIMO system has 64 antennas (as of now).  Then, the question arises with just 64 antennas do the above properties hold? How many antennas are sufficient to hold channel hardening practically.
 
 The research community currently talking about distributed MIMO (there are many names: Cell-Free Massive MIMO, Cell-Free Networks, Network MIMO etc).  Do these properties hold for such networks?
-
-Think over it, we shall answer these concepts in the next post and also do some simulations in MATLAB and check whether 64 antennas are good enough for the above properties to hold.
