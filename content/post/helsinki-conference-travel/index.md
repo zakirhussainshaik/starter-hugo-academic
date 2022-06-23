@@ -15,7 +15,7 @@ categories:
 image:
   filename: whatsapp-image-2022-06-23-at-7.24.25-pm.jpeg
   focal_point: Smart
-  preview_only: false
+  preview_only: true
 ---
 I recently had the opportunity to attend and present a joint work of my colleagues Sarvendranath, Unnikrishnan, myself and my supervisor Prof. Erik G. Larsson at the VTC2022 conference held in Helsinki, Finland. It was such a refreshing experience to attend in-person conference after a long time. Having attended three modes of conferences: in-person, virtual and hybrid, in-person is always a fulfiling experience, especially the chance to meet fellow researchers and expand your network.
 
