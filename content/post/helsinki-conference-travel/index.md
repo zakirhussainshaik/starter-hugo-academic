@@ -13,11 +13,13 @@ tags:
 categories:
   - General
 image:
-  filename: featured.jpeg
+  filename: whatsapp-image-2022-06-23-at-7.24.25-pm.jpeg
   focal_point: Smart
   preview_only: true
 ---
 I recently had the opportunity to attend and present a joint work of my colleagues Sarvendranath, Unnikrishnan, myself and my supervisor Prof. Erik G. Larsson at the VTC2022 conference held in Helsinki, Finland. It was such a refreshing experience to attend in-person conference after a long time. Having attended three modes of conferences: in-person, virtual and hybrid, in-person is always a fulfiling experience, especially the chance to meet fellow researchers and expand your network.
+
+![](presenting.jpeg)
 
 VTC, an acronym for Vehicular Technology Society, is one of the flagship conferences covering a broader range of research domains from communications and signal processing to vehicular technology. VTC2022 had engaging technical sessions, including but not limited to tutorials, e.g., recently buzzing OTFS modulation, industrial keynotes and panel discussions from Nokia Bell Labs, Samsung research and Huawei research.
 
