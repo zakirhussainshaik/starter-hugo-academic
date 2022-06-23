@@ -13,7 +13,7 @@ tags:
 categories:
   - General
 image:
-  filename: whatsapp-image-2022-06-23-at-7.24.25-pm.jpeg
+  filename: featured.jpeg
   focal_point: Smart
   preview_only: true
 ---
