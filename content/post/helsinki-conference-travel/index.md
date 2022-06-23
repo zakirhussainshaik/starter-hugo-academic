@@ -1,6 +1,6 @@
 ---
 title: Helsinki Conference Travel
-subtitle: The 2022 IEEE 95th VTC2022 held in Helsinki, Finland 19 - 22 June 2022.
+subtitle: The IEEE 95th VTC2022 held in Helsinki, Finland 19 - 22 June 2022.
 date: 2022-06-23T21:01:23.299Z
 draft: false
 featured: false
