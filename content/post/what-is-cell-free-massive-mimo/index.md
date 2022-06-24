@@ -4,6 +4,8 @@ subtitle: Technical jargons made simple
 date: 2022-06-24T08:16:53.224Z
 draft: false
 featured: false
+categories:
+  - Technical
 image:
   filename: featured
   focal_point: Smart
