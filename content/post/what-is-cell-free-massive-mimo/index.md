@@ -23,10 +23,7 @@ Simply put, cell-free massive MIMO is distributed implementation of massive MIMO
 
 To understand in what aspects are they similar and where they differ, I recommend referring to the following literature  (click the links to redirect):
 
-1. [Cell-Free Massive MIMO: Distributed Signal Processing and Energy Efficiency](https://liu.diva-portal.org/smash/get/diva2:1636175/FULLTEXT02.pdf)
-
-2. [Cell-Free Massive MIMO: Scalability, Signal Processing and Power Control](http://www.diva-portal.org/smash/get/diva2:1448945/FULLTEXT01.pdf)
-
-3. [Cell-Free blog article Prof. Emil Björnson](https://ma-mimo.ellintech.se/2022/04/30/cell-free-massive-mimo-and-cloud-ran/)
-
-4. [Cell-Free book](https://ma-mimo.ellintech.se/2021/03/26/new-book-foundations-of-user-centric-cell-free-massive-mimo/)
+1. [Cell-Free Massive MIMO: Distributed Signal Processing and Energy Efficiency (Author: Zakir Hussain Shaik)](https://liu.diva-portal.org/smash/get/diva2:1636175/FULLTEXT02.pdf)
+2. [Cell-Free Massive MIMO: Scalability, Signal Processing and Power Control (Author: Giovanni Interdonato)](http://www.diva-portal.org/smash/get/diva2:1448945/FULLTEXT01.pdf)
+3. [Cell-Free blog article by Prof. Emil Björnson](https://ma-mimo.ellintech.se/2022/04/30/cell-free-massive-mimo-and-cloud-ran/)
+4. [](https://github.com/emilbjornson/cell-free-book)[Cell-Free book (Author: Özlem Tuğfe Demir](https://github.com/emilbjornson/cell-free-book)[](https://github.com/emilbjornson/cell-free-book))
